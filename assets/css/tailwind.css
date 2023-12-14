@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "OTR Type";
+  font-style: normal;
+  font-display: swap;
+  src: url("@/assets/fonts/otr-tp.woff2") format("woff2"),
+    url("@/assets/fonts/otr-tp.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Cabinet Grotesk";
+  font-style: normal;
+  font-display: swap;
+  src: url("@/assets/fonts/CabinetGrotesk-Regular.woff2") format("woff2"),
+    url("@/assets/fonts/CabinetGrotesk-Regular.otf") format("otf");
+}
