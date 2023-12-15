@@ -12,6 +12,8 @@ useHead({
 
 const { $gsap } = useNuxtApp();
 
+const isSwitchOn = ref(false);
+
 onMounted(() => {
   $gsap.to(".silver", {
     scale: 1.1,
@@ -31,6 +33,12 @@ onMounted(() => {
       <h1>Renaissance</h1>
       <h2>Beyonce</h2>
     </div>
+
+    <Switch
+      v-model="isSwitchOn"
+      class="absolute sm:bottom-16 sm:right-16 bottom-16 right-[50%] transform translate-x-[50%] sm:translate-x-0"
+      audioSrc="https://res.cloudinary.com/augalo/video/upload/v1702666945/Beyonc%C3%A9/beyonce-song_jrnjvi.mp3"
+    />
 
     <img
       src="https://res.cloudinary.com/augalo/image/upload/v1702660154/Beyonc%C3%A9/220420_M22_LA_Jacobs_Renaissance_Horse_0075_V14_SF_QC_1-1_2_pmhdg9.webp"
