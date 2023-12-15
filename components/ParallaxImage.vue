@@ -1,7 +1,7 @@
 <template>
   <div ref="parallaxContainer" :class="containerClasses">
     <div
-      class="parallax-background absolute w-full will-change-transform bg-contain bg-no-repeat bg-center"
+      class="parallax-background absolute w-full will-change-transform bg-cover bg-no-repeat bg-center"
       :style="backgroundStyle"
     />
   </div>

@@ -60,7 +60,7 @@ onMounted(() => {
           <ParallaxImage
             imageUrl="https://res.cloudinary.com/augalo/image/upload/v1702675003/Beyonc%C3%A9/Beyonce-film-recap_2_poyvnd.webp"
             :parallaxRate="0.1"
-            class="h-[50vw] sm:h-[20vw]"
+            class="h-[70vw] sm:h-[40vw]"
           />
         </div>
 
