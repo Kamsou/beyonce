@@ -27,30 +27,32 @@ onMounted(() => {
 
 <template>
   <section class="bg-[#090705] text-white font-regular">
-    <div
-      class="flex justify-between absolute w-full px-4 sm:px-16 pt-9 text-sm sm:text-[1.5vw] text-[#EBFF00] font-title flex-wrap gap-2"
-    >
-      <h1>Renaissance</h1>
-      <h2>Beyonce</h2>
+    <div class="h-screen relative">
+      <div
+        class="flex justify-between absolute w-full px-4 sm:px-16 pt-9 text-sm sm:text-[1.5vw] text-[#EBFF00] font-title flex-wrap gap-2"
+      >
+        <h1>Renaissance</h1>
+        <h2>Beyonce</h2>
+      </div>
+
+      <Switch
+        v-model="isSwitchOn"
+        class="absolute sm:bottom-16 sm:right-16 bottom-16 right-[50%] transform translate-x-[50%] sm:translate-x-0"
+        audioSrc="https://res.cloudinary.com/augalo/video/upload/v1702666945/Beyonc%C3%A9/beyonce-song_jrnjvi.mp3"
+      />
+
+      <img
+        src="https://res.cloudinary.com/augalo/image/upload/v1702660154/Beyonc%C3%A9/220420_M22_LA_Jacobs_Renaissance_Horse_0075_V14_SF_QC_1-1_2_pmhdg9.webp"
+        alt="Beyoncé sur son cheval en argent"
+        class="h-screen w-screen object-cover object-top"
+      />
+
+      <p
+        class="sm:text-[2.500vw] text-[#EBFF00] font-title text-center text-xl px-4 absolute bottom-0 sm:-bottom-2 w-full"
+      >
+        N’oubliez jamais de creer
+      </p>
     </div>
-
-    <Switch
-      v-model="isSwitchOn"
-      class="absolute sm:bottom-16 sm:right-16 bottom-16 right-[50%] transform translate-x-[50%] sm:translate-x-0"
-      audioSrc="https://res.cloudinary.com/augalo/video/upload/v1702666945/Beyonc%C3%A9/beyonce-song_jrnjvi.mp3"
-    />
-
-    <img
-      src="https://res.cloudinary.com/augalo/image/upload/v1702660154/Beyonc%C3%A9/220420_M22_LA_Jacobs_Renaissance_Horse_0075_V14_SF_QC_1-1_2_pmhdg9.webp"
-      alt="Beyoncé sur son cheval en argent"
-      class="h-screen w-screen object-cover object-top"
-    />
-
-    <p
-      class="sm:text-[2.500vw] text-[#EBFF00] font-title text-center text-xl px-4 -mt-[60px] sm:-mt-[20px]"
-    >
-      N’oubliez jamais de creer
-    </p>
 
     <div class="sm:px-[16.667vw] px-6 pt-[17vw] sm:pt-[12.847vw]">
       <div class="flex flex-col sm:flex-row gap-[8.889vw] items-center">
