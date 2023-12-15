@@ -7,6 +7,9 @@ export default {
         regular: ["Cabinet Grotesk", "sans-serif"],
         title: ["OTR Type", "sans-serif"],
       },
+      transform: {
+        "-webkit-translate-y-3": "-webkit-transform: translateY(-3rem);",
+      },
     },
   },
   plugins: [],
