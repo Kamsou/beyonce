@@ -47,18 +47,18 @@ onMounted(() => {
     />
 
     <p
-      class="sm:text-[2.500vw] text-[#EBFF00] font-title text-center -mt-[120px] sm:mt-0"
+      class="sm:text-[2.500vw] text-[#EBFF00] font-title text-center text-xl px-4 -mt-[30px]"
     >
       N’oubliez jamais de creer
     </p>
 
-    <div class="sm:px-[16.667vw] px-6 pt-[40vw] sm:pt-[12.847vw]">
+    <div class="sm:px-[16.667vw] px-6 pt-[17vw] sm:pt-[12.847vw]">
       <div class="flex flex-col sm:flex-row gap-[8.889vw] items-center">
         <div class="w-full sm:w-[50%]">
           <ParallaxImage
-            imageUrl="https://res.cloudinary.com/augalo/image/upload/v1702589686/Beyonc%C3%A9/beyonce-2_jqb8qu.jpg"
+            imageUrl="https://res.cloudinary.com/augalo/image/upload/v1702675003/Beyonc%C3%A9/Beyonce-film-recap_2_poyvnd.webp"
             :parallaxRate="0.1"
-            class="h-[80vw] sm:h-[30vw]"
+            class="h-[50vw] sm:h-[20vw]"
           />
         </div>
 
@@ -81,8 +81,8 @@ onMounted(() => {
         </div>
       </div>
 
-      <div class="flex justify-center pt-[10vw] py-[20vw]">
-        <p class="sm:-[36.389vw] w-full sm:text-[1.1vw] text-base">
+      <div class="flex justify-center pt-[9vw] py-[20vw]">
+        <p class="sm:-[36.389vw] w-full sm:w-[45vw] sm:text-[1.1vw] text-base">
           Au cours de sa carrière, Beyoncé a sorti plusieurs albums acclamés,
           tels que "B'Day", "I Am... Sasha Fierce", "4", "Beyoncé" et
           "Lemonade". Chacun de ces albums a démontré son habileté à mélanger
@@ -98,7 +98,7 @@ onMounted(() => {
           alt=""
         />
         <p
-          class="relative z-10 sm:text-[2.5vw] text-base text-[#EBFF00] font-title text-center mb-44 sm:mb-[25vw] bg-black p-3"
+          class="relative z-10 sm:text-[2.5vw] text-xl text-[#EBFF00] font-title text-center mb-44 sm:mb-[25vw] bg-black p-3"
         >
           La confiance en soi
         </p>
@@ -106,7 +106,7 @@ onMounted(() => {
 
       <div>
         <img
-          src="https://res.cloudinary.com/augalo/image/upload/v1702660421/Beyonc%C3%A9/beyonce-10_lwculz.webp"
+          src="https://res.cloudinary.com/augalo/image/upload/v1702675311/Beyonc%C3%A9/img_yhyp32.webp"
           class="sm:w-[25vw]"
           alt=""
         />
