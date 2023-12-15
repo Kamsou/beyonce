@@ -47,12 +47,12 @@ onMounted(() => {
     />
 
     <p
-      class="sm:text-[2.500vw] text-[#EBFF00] font-title text-center transform sm:-translate-y-[2rem] -translate-y-[3rem] -webkit-translate-y-3"
+      class="sm:text-[2.500vw] text-[#EBFF00] font-title text-center -mt-[30px]"
     >
       N’oubliez jamais de creer
     </p>
 
-    <div class="sm:px-[16.667vw] px-6 pt-[12.847vw]">
+    <div class="sm:px-[16.667vw] px-6 pt-[40vw] sm:pt-[12.847vw]">
       <div class="flex flex-col sm:flex-row gap-[8.889vw] items-center">
         <div class="w-full sm:w-[50%]">
           <ParallaxImage
