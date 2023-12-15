@@ -47,7 +47,7 @@ onMounted(() => {
     />
 
     <p
-      class="sm:text-[2.500vw] text-[#EBFF00] font-title text-center -mt-[30px]"
+      class="sm:text-[2.500vw] text-[#EBFF00] font-title text-center -mt-[120px] sm:mt-0"
     >
       N’oubliez jamais de creer
     </p>
