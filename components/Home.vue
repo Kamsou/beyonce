@@ -37,7 +37,7 @@ onMounted(() => {
 
       <Switch
         v-model="isSwitchOn"
-        class="absolute sm:bottom-16 sm:right-16 bottom-32 right-[50%] transform translate-x-[50%] sm:translate-x-0"
+        class="absolute sm:bottom-16 sm:right-16 bottom-64 right-[50%] transform translate-x-[50%] sm:translate-x-0"
         audioSrc="https://res.cloudinary.com/augalo/video/upload/v1702666945/Beyonc%C3%A9/beyonce-song_jrnjvi.mp3"
       />
 
@@ -48,7 +48,7 @@ onMounted(() => {
       />
 
       <p
-        class="sm:text-[2.500vw] text-[#EBFF00] font-title text-center text-xl px-4 absolute bottom-16 sm:-bottom-2 w-full"
+        class="sm:text-[2.500vw] text-[#EBFF00] font-title text-center text-xl px-4 absolute bottom-32 sm:-bottom-2 w-full"
       >
         N’oubliez jamais de creer
       </p>
