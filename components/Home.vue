@@ -47,7 +47,7 @@ onMounted(() => {
     />
 
     <p
-      class="text-[2.500vw] text-[#EBFF00] font-title text-center transform -translate-y-[2rem]"
+      class="sm:text-[2.500vw] text-[#EBFF00] font-title text-center transform sm:-translate-y-[2rem] -translate-y-[3rem]"
     >
       N’oubliez jamais de creer
     </p>
@@ -58,7 +58,7 @@ onMounted(() => {
           <ParallaxImage
             imageUrl="https://res.cloudinary.com/augalo/image/upload/v1702589686/Beyonc%C3%A9/beyonce-2_jqb8qu.jpg"
             :parallaxRate="0.1"
-            height="30vw"
+            class="h-[80vw] sm:h-[30vw]"
           />
         </div>
 
@@ -81,7 +81,7 @@ onMounted(() => {
         </div>
       </div>
 
-      <div class="flex justify-center py-[20vw]">
+      <div class="flex justify-center pt-[10vw] py-[20vw]">
         <p class="sm:-[36.389vw] w-full sm:text-[1.1vw] text-base">
           Au cours de sa carrière, Beyoncé a sorti plusieurs albums acclamés,
           tels que "B'Day", "I Am... Sasha Fierce", "4", "Beyoncé" et
@@ -94,7 +94,7 @@ onMounted(() => {
       <div class="relative mt-12 sm:mt-0">
         <img
           src="https://res.cloudinary.com/augalo/image/upload/v1702658427/Beyonc%C3%A9/silverpaper_hq3im9.webp"
-          class="silver sm:w-[25vw] absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2"
+          class="silver w-[70%] sm:w-[25vw] absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2"
           alt=""
         />
         <p

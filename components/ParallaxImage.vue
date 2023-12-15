@@ -1,9 +1,5 @@
 <template>
-  <div
-    ref="parallaxContainer"
-    :class="containerClasses"
-    :style="{ height: props.height }"
-  >
+  <div ref="parallaxContainer" :class="containerClasses">
     <div
       class="parallax-background absolute w-full will-change-transform bg-contain bg-no-repeat bg-center"
       :style="backgroundStyle"
